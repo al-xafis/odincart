@@ -1,0 +1,32 @@
+.bg {
+  background-image: url("../pic/fullshop.jpg");
+  height: 92vh;
+  /* width: 100vw; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+}
+
+.description {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 40rem;
+  text-align: center;
+  font-weight: 700;
+  color: #fb4a70;
+  font-size: 1.8rem;
+}
+
+.button {
+  position: absolute;
+  top: 32%;
+  left: 18.5%;
+  border: none;
+  padding: 1rem 2rem;
+  background-color: #fb4a70;
+  color: #FDCFDA;
+  border-radius: 12rem;
+  font-weight: 700;
+}

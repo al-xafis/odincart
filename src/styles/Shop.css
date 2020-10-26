@@ -1,0 +1,40 @@
+.box {
+  margin-top: 2rem;
+  padding: 0 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-top: 2rem;
+  width: 25rem;
+  position: relative;
+  /* margin-left: 1.6rem; */
+}
+
+.card:not(:first-child) {
+  margin-left: 1.6rem;
+}
+
+img {
+  width: 100%;
+}
+
+.price {
+  font-weight: 600;
+  color: #666
+}
+
+.input {
+  position: absolute;
+  transform: translate(7rem, -6rem);
+  z-index: 3;
+  width: 4rem;
+  margin: 0 1rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  text-align: center;
+}
