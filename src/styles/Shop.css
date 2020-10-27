@@ -1,5 +1,5 @@
 .box {
-  margin-top: 2rem;
+  margin-top: 8rem;
   padding: 0 10rem;
   display: flex;
   justify-content: center;
@@ -8,14 +8,11 @@
 }
 
 .card {
+  margin: 0 1rem;
   margin-top: 2rem;
   width: 25rem;
   position: relative;
-  /* margin-left: 1.6rem; */
-}
-
-.card:not(:first-child) {
-  margin-left: 1.6rem;
+  
 }
 
 img {
@@ -27,14 +24,52 @@ img {
   color: #666
 }
 
+.counter {
+  transform: translateY(-6rem);
+  text-align: center;
+  /* width: 5rem; */
+}
+
+.counter {
+  font-family: inherit;
+}
+
 .input {
-  position: absolute;
-  transform: translate(7rem, -6rem);
+  font-family: inherit;
   z-index: 3;
   width: 4rem;
-  margin: 0 1rem;
-  padding: 1rem;
   border: none;
+  border-radius: .5rem;
+  margin: 0 .5rem;
+  padding: .5rem;
   outline: none;
   text-align: center;
+}
+
+.minus {
+  font-family: inherit;
+  width: 3.7rem;
+  padding: .5rem;
+  border: none;
+  outline: none;
+  border-radius: .8rem;
+}
+
+.plus {
+  font-family: inherit;
+  width: 3.7rem;
+  padding: .5rem;
+  border: none;
+  outline: none;
+  border-radius: .8rem;
+}
+
+.submit {
+  font-family: inherit;
+  transform: translate(7rem, -4rem);
+  border: none;
+  background-color:#FDCFDA; 
+  padding: 1rem 2rem;
+  border-radius: 1.5rem;
+  outline: none;
 }

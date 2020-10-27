@@ -15,7 +15,7 @@ const Navbar = ({ totalItem }) => {
           <Link to="/shop">Shop</Link>
         </li>
       </ul>
-      <Link to="/cart" className="cart"><i class="shopping cart icon"></i> {totalItem}</Link>
+      <Link to="/cart" className="cart"><i className="shopping cart icon"></i> {totalItem}</Link>
     </nav>
   );
 };

@@ -1,0 +1,39 @@
+.container {
+  margin-top: 6rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  background-color:  #fd9db1;
+  color: #670217;
+  margin-top: 5rem;
+  min-height: 15rem;
+  min-width: 30rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.description_item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 18rem;
+  padding: 1.2rem;
+  font-weight: 700;
+}
+
+.description_item:last-child {
+  padding-bottom: 3rem;
+}
+.description_item:first-child {
+  padding-top: 3rem;
+}
+
+.item_amount {
+  margin-left: auto;
+}

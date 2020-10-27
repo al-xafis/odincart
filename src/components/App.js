@@ -9,6 +9,7 @@ import Cart from './Cart';
 
 const App = () => {
 const [totalItem, setTotalItem] = useState(0);
+const [retrievedItem, setRetrievedItem] = useState([]);
 
   return (
     <Router>
@@ -16,8 +17,8 @@ const [totalItem, setTotalItem] = useState(0);
         <Navbar totalItem={totalItem}/>
           <Switch>
             <Route path="/" exact component={Home}/>
-            <Route path="/shop" exact children={<Shop totalItem={totalItem} setTotalItem={setTotalItem} />} />
-            <Route path="/cart" exact component={Cart}/>
+            <Route path="/shop" exact children={<Shop totalItem={totalItem} setTotalItem={setTotalItem} retrievedItem={retrievedItem} setRetrievedItem={setRetrievedItem} />} />
+            <Route path="/cart" exact children={<Cart retrievedItem={retrievedItem} setRetrievedItem={setRetrievedItem} />} />
           </Switch>
       </div>
     </Router>

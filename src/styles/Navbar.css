@@ -1,7 +1,4 @@
 nav {
-  position: absolute;
-  top: 0;
-  
   width: 100%;
   height: 6rem;
   background-color: #fd9db1;
@@ -11,6 +8,7 @@ nav {
   font-size: 1.8rem;
   color: #88031f;
   position: fixed;
+  top: 0;
   z-index: 999;
 }
 
