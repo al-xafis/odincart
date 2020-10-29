@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/Navbar.css'
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
-import App from './App';
+import { Link } from 'react-router-dom';
 
 const Navbar = ({ totalItem }) => {
   return (

@@ -1,16 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/Cart.css';
 
 const Cart = ({retrievedItem, setRetrievedItem}) => {
 
-
   return (
       <div className="container">
         <div className="info">
-          <div className="description_item">
-            <div className="item_name">Nike O' Sonic</div>
-            <div className="item_amount">4</div>
-          </div>
+          {retrievedItem.map((item, index) => {
+            return (
+              <div className="description_item" key={index}>
+                <div className="item_name">{item.item.name}</div>
+                <div className="item_amount">{item.amount}</div>
+              </div>
+            )
+          })}
         </div>
       </div>
   );
